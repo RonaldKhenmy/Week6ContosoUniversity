@@ -6,9 +6,16 @@ In order to run the app, download the zip folder and extract all the files. You 
 
 Running the program will open a website; the URL will be a localhost:<port#>(The port number is random). Click on the Students header/link, which will lead you to the Index webpage that will give you a list of students with their last name, first/middle name, and their enrollment date. The header is located in the top left corner of the page. In order to add students, click on the 'Create new' link, fill in the boxes, and select an enrollment date. Finally, press the save button to store the student information. When you click on the 'Details' link, you will learn more about the student and their grades they have and what kind of courses they took in the university. You can also click 'Edit' to change details about the student, which is available in the 'Details' page and in the list page. In order to get out of the page, either click on 'Back to List' or click on the 'Students' header.  There is also a delete link and button if the user wants to delete the student from the list. It has a sorting feature where you can sort the last names in descending order or by enrollment date. The list page also has a search bar where you can find the name you are looking for in the list. The list page also has multiple pages. To view the other names, click on the next button. In order to go back one page, click on the previous button. If you have already searched for the name you are looking for in the list, you can go back to the full list by clicking the 'Back to full List'. There is also an About header/link to display how many students have enrolled for each enrollment date. If you are done with the app, close the window by clicking on the X-button in the top right corner of the window. Make sure to also close the console command after closing the app. 
 
-<img width="1901" height="903" alt="Week6Step3Details" src="https://github.com/user-attachments/assets/ebccfa4b-b3ce-499b-99e7-a545625ad52a" /> 
+https://localhost:7100/Students/Details?id=1
+<img width="1901" height="903" alt="Week6Step3Details" src="https://github.com/user-attachments/assets/ebccfa4b-b3ce-499b-99e7-a545625ad52a" />
+
+https://localhost:7100/Students/Details?id=4
 <img width="1905" height="918" alt="Week6Step3Details2" src="https://github.com/user-attachments/assets/04663313-9dad-4ec8-ad79-0c3d6c5e59cb" /> 
+
+https://localhost:7100/Students
 <img width="1902" height="996" alt="Week6Step3List" src="https://github.com/user-attachments/assets/9bce4ce5-7e10-4a54-a807-37b210a9fc8b" />
+
+https://localhost:7100/Students?pageIndex=2
 <img width="1902" height="915" alt="Week6Step3List2" src="https://github.com/user-attachments/assets/2e6a1d87-ee49-4981-bca2-c182a2e9941e" />
 
 
